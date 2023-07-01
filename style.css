@@ -1,0 +1,43 @@
+:root {
+    --primary: #DD946F ;
+    --primary-hover: #CD7D7C;                
+    --secondary: #EFD0F8;
+    --secondary-hover: #B8A1D9;
+    --aura: #9265CA80;
+    --background: #3d2f97;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: var(--background);
+    font-family: Cascadia Code;
+}
+
+
+h1 {
+    color: var(--secondary);
+}
+
+.background {
+    content: "";
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    place-items: center;
+    opacity: 0.5;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+.centering{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+
